@@ -1,10 +1,14 @@
-/* common styles for everything */
+/* ----------------------
+common styles for everything 
+------------------------- */
 * {
     margin: 0px;
     font-family: 'Work Sans';
 }
 
-/* header style */
+/*------------- 
+header style 
+---------------*/
 
 header {
     background: rgba(255, 144, 14, 0.1);
@@ -12,7 +16,9 @@ header {
     margin-bottom: 85px;
 }
 
-/* nav styles */
+/*-------------
+ nav styles 
+ --------------*/
 
 nav {
     display: flex;
@@ -40,7 +46,9 @@ nav {
     margin-left: 30px;
 }
 
-/* header info styles */
+/*-------------------------
+ header info styles 
+ --------------------------*/
 
 .header {
     align-items: center;
@@ -75,7 +83,9 @@ nav {
     width: 100%;
 }
 
-/* feature section styles */
+/*---------------------
+ feature section styles 
+ ----------------------*/
 
 .feature {
     display: flex;
@@ -119,7 +129,9 @@ nav {
     color: #727272;
 }
 
-/* article blogs style section */
+/*----------------------------------
+ article blogs style section 
+ -----------------------------------*/
 
 .blogs {
     display: flex;
@@ -193,7 +205,9 @@ nav {
     left: 0px;
 }
 
-/* Fact section styles */
+/*----------------------------
+ Fact section styles 
+ -----------------------------*/
 
 .facts {
     margin: 0% 10% 10% 10%;
@@ -242,7 +256,9 @@ nav {
     transition: transform 1s;
 }
 
-/* Sponsors styles */
+/*--------------------
+ Sponsors styles 
+ ---------------------*/
 
 .sponsors {
     margin: 0% 10% 10% 10%;
@@ -273,7 +289,9 @@ nav {
 
 }
 
-/* Bonus section visitors styles */
+/*------------------------------------
+ Bonus section visitors styles 
+ -------------------------------------*/
 
 .customer {
     margin: 0% 10% 10% 10%;
@@ -326,7 +344,9 @@ nav {
     background: #FFF4E7;
 }
 
-/* Footer section styles */
+/*--------------------------
+ Footer section styles 
+ ---------------------------*/
 
 footer {
     margin: 0% 10% 10% 10%;
@@ -345,17 +365,13 @@ footer {
 
 
 
+/*-----------------------
+ Media queries 
+ ------------------------*/
 
-
-
-
-
-
-
-
-/* Media queries */
-
-/* For mobile */
+/*-----------------------
+ For mobile 
+ ------------------------*/
 
 @media only screen and (max-width: 576px) {
     nav {
@@ -405,7 +421,7 @@ footer {
     }
 
     .blogs {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .blog-info {
@@ -455,7 +471,9 @@ footer {
 
 
 
-/* for medium device */
+/*-------------------------
+ for medium device 
+ --------------------------*/
 
 @media only screen and (min-width: 577px) and (max-width: 992px) {
     .nav-title {
@@ -499,7 +517,7 @@ footer {
     }
 
     .blogs {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .blog-info {
